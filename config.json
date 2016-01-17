@@ -6,7 +6,7 @@
     "defaultPlayerMass": 10,
     "gameWidth": 5000,
     "gameHeight": 5000,
-    "adminPass": "DEFAULT",
+    "adminPass": "2",
     "gameMass": 20000,
     "maxFood": 1000,
     "slowBase": 4.5,
