@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Bigar.io</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes">
     <link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
@@ -11,15 +11,14 @@
         <div id="status"><span class="title">Leaderboard</span></div>
         <div class="chatbox" id="chatbox">
             <ul id="chatList" class="chat-list"></ul>
-            <input id="chatInput" type="text" class="chat-input" placeholder="Chat here..." maxlength="35" />
+            <input id="chatInput" type="text" class="chat-input" placeholder="Chat here..." maxlength="100" />
         </div>
         <canvas tabindex="1" id="cvs"></canvas>
     </div>
     <div id="startMenuWrapper">
         <div id="startMenu">
             <p>Bigar.io</p>
-            <input type="text" tabindex="0" autofocus placeholder="Enter your name here" id="playerNameInput" maxlength="25" />
-            <b class="input-error">Nick must be alphanumeric characters only!</b>
+            <input type="text" tabindex="0" autofocus placeholder="Enter your name here" id="playerNameInput" maxlength="15" />
             <br />
             <button id="startButton">Play</button>
             <button id="spectateButton">Spectate</button>
